@@ -18,19 +18,19 @@ list
   - list all open files
 
 create [file]
-  - create an empty file inside the virtual disk with the name <file>
+  - create an empty file inside the virtual disk with the name [file]
   
 remove [file]
-  - remove an existing file with name <file>
+  - remove an existing file with name [file]
 
 copy [file1] [file2]
-  - copy the content of <file1> into <file2>
+  - copy the content of [file1] into [file2]
   
 copyf [realfile] [file]
-  - copy the content of a <realfile> in the same folder as the disk file into a <file> existing inside the virtual disk.
+  - copy the content of a [realfile] in the same folder as the disk file into a [file] existing inside the virtual disk.
 
 copyt [file] [realfile]
-  - copy the content of a <file> from the virtual disk to a <realfile> outside the disk in the same folder.
+  - copy the content of a [file] from the virtual disk to a [realfile] outside the disk in the same folder.
 
 exit
   - leave RSFS program.
